@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+    margin: 0;
+    padding: 0;
+}
+
+.info-box {
+    border-radius: 20px;
+    padding: 24px;
+    margin: 32px auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.info-box h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.info-box p {
+    margin: 6px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.info-box i {
+    color: #444;
+    font-style: italic;
+}
+
+.MuiCard-root {
+    border-radius: 16px !important;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s;
+}
+
+.MuiCard-root:hover {
+    transform: scale(1.03);
+}
+
+.MuiCardMedia-root {
+    height: 180px;
+    object-fit: cover;
+}
